@@ -3,7 +3,7 @@ import { EMBEREKLISTA } from "./adat.js";
 let articleElem=document.querySelector("article")
 
 for(let i; i<EMBEREKLISTA.length; i++){
-    
+    const EMBER=new Ember(EMBEREKLISTA[i].nev)
 
 }
 
