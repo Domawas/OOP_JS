@@ -22,7 +22,7 @@ export default class Ember {
 
         </div>
         `
-        this.szuloElem.innerHTML=html
+        this.szuloElem.innerHTML+=html
         console.log(html)
     }
 
